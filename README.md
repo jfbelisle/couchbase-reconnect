@@ -1,4 +1,4 @@
-## Couchbase Reconnect
+## Couchbase Reconnect [![Build Status](https://travis-ci.org/xeodou/couchbase-reconnect.svg?branch=master)](https://travis-ci.org/xeodou/couchbase-reconnect)
 
 This is a simple wrapper for the [couchbase](https://www.npmjs.com/package/couchbase), it provider a simple function to reconnect with couchbase.
 
