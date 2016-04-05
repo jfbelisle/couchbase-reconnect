@@ -79,7 +79,7 @@ describe('Singleton:couchbase', () => {
 
     it('should reconnect.', function(done) {
       let bucket = cluster.openBucket('lorem');
-      bucket.disconnect();
+      bucket.connected = false;
       should.exists(bucket);
       try {
         bucket.get('1', (err) => {
