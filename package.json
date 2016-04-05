@@ -1,0 +1,35 @@
+{
+  "name": "couchbase-reconnect",
+  "version": "0.0.1",
+  "description": "Simple wrapper for couchnode ",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test ./node_modules/.bin/mocha ./test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xeodou/couchbase-reconnect.git"
+  },
+  "keywords": [
+    "couchbase",
+    "reconnect",
+    "cachable",
+    "couchbaase"
+  ],
+  "author": "xeodou@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xeodou/couchbase-reconnect/issues"
+  },
+  "homepage": "https://github.com/xeodou/couchbase-reconnect#readme",
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "should": "^8.3.0"
+  },
+  "peerDependencies": {
+    "couchbase": "^2.1.4"
+  },
+  "dependencies": {
+    "debug": "^2.2.0"
+  }
+}
